@@ -46,8 +46,6 @@ public class CustomerIT {
         Rental arg = null;
         Customer instance = null;
         instance.addRentals(arg);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -60,8 +58,6 @@ public class CustomerIT {
         String expResult = "";
         String result = instance.getName();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -74,8 +70,6 @@ public class CustomerIT {
         String expResult = "";
         String result = instance.statement();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
