@@ -40,5 +40,13 @@ public class MainIT {
     @Test
     public void testSomeMethod() {
     }
+
+    /**
+     * Test of main method, of class Main.
+     */
+    @Test
+    public void testMain() {
+        System.out.println("main");
+    }
     
 }
